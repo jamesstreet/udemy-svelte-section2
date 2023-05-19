@@ -20,4 +20,5 @@
   },
   "peacock.color": "#90add3",
   "editor.formatOnSave": true,
+  "editor.hover.enabled": false,
 }

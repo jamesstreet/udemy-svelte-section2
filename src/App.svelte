@@ -1,11 +1,13 @@
 <script>
-    let name = 'world';
+    import Counter from './lib/Counter.svelte';
+
+    const vals = {
+        maxCount: 10,
+        initialCount: 5
+    };
 </script>
 
-<h1>Hello {name.toLowerCase()}</h1>
+<Counter {...vals} />
 
 <style>
-    h1 {
-        color: red;
-    }
 </style>
